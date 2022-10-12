@@ -1,0 +1,126 @@
+@media screen and (max-width:1485px){
+    .service-section{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 1120px) {
+    #home p{
+        line-height: 4.7rem;
+    }
+}
+
+
+@media screen and (max-width : 740px) {
+
+    #home p{
+        line-height: 4.4rem;
+    }
+
+    .client-section{
+        flex-wrap: wrap;
+    }
+
+    .client-items img{
+        height: 140px;
+    }
+}
+
+
+
+
+@media screen and (max-width:680px) {
+    .ham-menu{
+        display: inline-block;
+    }
+
+    .nav-ul::before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40rem;
+        background-color: black;
+        opacity: 0.69;
+    }
+
+    .nav-ul{
+        width: 100%;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        position: fixed;
+        top: 8rem;
+        left: -100%;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .nav-li{
+        display: block;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+@media screen and (max-width:490px) {
+
+
+    .service-section .box img{
+        height: 160px;
+    }
+
+    .service-section .box b{
+        font-size: 2.5rem;
+    }
+
+    .contact-items{
+        padding: 2rem;
+    }
+
+    .contact-items label{
+        font-size: 1.4rem;
+    } 
+
+    .contact-items input,textarea{
+        padding: 1.2rem 2rem;
+        font-size: 1.6rem;
+    }  
+
+    #Contactsub{
+        padding: 0.6rem 1.3rem;
+        font-size: 1.6rem;
+    } 
+
+    footer p{
+        font-size: 1.4rem;
+        font-family: var(--main-font);
+    }
+    
+    
+}
+
+@media screen and (max-width : 400px){
+    #home p{
+        line-height: 3.5rem;
+    }
+
+    .contact-items{
+        padding: 2.5rem;
+    }
+
+    .contact-items label{
+        font-size: 1.3rem;
+    } 
+
+    .contact-items input,textarea{
+        padding: 1rem 1rem;
+        font-size: 1.5rem;
+    } 
+}
