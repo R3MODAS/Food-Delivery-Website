@@ -204,6 +204,7 @@ main{
 
 .service-section .box:hover{
     background-color: rgb(169, 221, 255);
+    border-radius: 30px;
 }
 
 .service-section .box img{
