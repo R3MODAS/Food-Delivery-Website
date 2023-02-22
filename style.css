@@ -364,6 +364,25 @@ footer p{
     font-family: var(--main-font);
 }
 
+/* Icon */
+
+.top{
+    position: relative;
+}
+
+#icon-top{
+    position: absolute;
+    font-size: 8rem;
+    bottom: 5rem;
+    right: 5rem;
+    color: black;
+    text-decoration: none;
+}
+
+#icon-top:hover{
+    color: #00aeff;
+    cursor: pointer;
+}
 
 /* Utilities */
 
