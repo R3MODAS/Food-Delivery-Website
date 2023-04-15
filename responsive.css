@@ -58,6 +58,7 @@
         top: 8rem;
         left: -100%;
         transition: all 0.4s ease-in-out;
+        z-index: 999;
     }
     
     .nav-li{
